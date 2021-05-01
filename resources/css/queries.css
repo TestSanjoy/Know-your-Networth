@@ -1,0 +1,69 @@
+/* Big tablet to 1200px (widths smaller than the 1140px  row ) */
+@media only screen and (max-width: 1200px) {
+
+    .section-why   {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .section-realstate,
+    .section-expense {
+        width: 100%;
+        
+    }
+    .row {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    label {
+        font-size: 105%;
+        font-weight: 500;
+    }    
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px;}
+    section { padding: 60px 0;}
+    
+    h1,h2{
+    font-size: 160%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    }
+    
+    .btn:link,
+    .btn:visited {
+    padding: 3px 10px;    
+    }
+    
+    .row {
+        padding: 0 1%;
+    }
+    
+    .box {
+        font-size: 85%;
+        font-weight: 150%;
+        padding: 0% 1% 5% 1%;
+        
+    }
+    
+    .investment-form {
+        margin-top: 20px;
+        
+    }
+}
+
+/* Small phones to small tablet: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    
+    
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+    
+}
+
